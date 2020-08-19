@@ -1,0 +1,30 @@
+.card {
+    position: relative;
+    width: 600px;
+    padding: 20px;
+    max-width: 85vw;
+    height: 50vh;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+}
+
+.card > h3 {
+    /* position it on top of the parent div */
+    position: absolute;
+    /* 10px from the bottom of the parent div */
+    bottom: 10px;
+    color: #fff;
+}
+
+.tinderCards__cardContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.swipe {
+    /* make the cards stack upon each other. */
+    position: absolute;
+}
